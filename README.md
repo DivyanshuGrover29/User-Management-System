@@ -28,8 +28,8 @@ Install the necessary dependencies for both the frontend and backend.
 For Frontend:
 Navigate to the frontend folder:
 
-```cd frontend
-npm install```
+cd frontend
+npm install
 
 For Backend:
 Navigate to the backend folder:
