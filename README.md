@@ -22,42 +22,51 @@ Clone the repository to your local machine:
 ```bash
 git clone <repository-url>
 cd <project-directory>
+```
 
 ###2. Install Dependencies
 Install the necessary dependencies for both the frontend and backend.
 
 For Frontend:
 Navigate to the frontend folder:
-
+```
 cd frontend
 npm install
+```
 
 For Backend:
 Navigate to the backend folder:
+```
 cd backend
 npm install
-
+```
 ###3. Set Up Environment Variables
 Create a .env file in both the frontend and backend directories (if not already present) based on the .env.example file.
 
 For example:
 
 Backend .env:
+```
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/user-management
 JWT_SECRET=mysecretkey
-
+```
 Frontend .env:
+```
 VITE_API_URL=http://localhost:5000/api
-
+```
 4. Run the Development Server
 For Frontend:
 Start the frontend development server:
+```
 cd frontend
 npm run dev
+```
 
 For Backend:
 Start the backend server:
+```
 cd backend
 npm run dev
+```
 The backend will run on http://localhost:5000 by default.
