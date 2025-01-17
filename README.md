@@ -56,9 +56,6 @@ npm run dev
 
 For Backend:
 Start the backend server:
-bash
-Copy
-Edit
 cd backend
 npm run dev
 The backend will run on http://localhost:5000 by default.
