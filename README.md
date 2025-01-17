@@ -19,7 +19,8 @@ Follow these steps to set up and run the project locally.
 
 Clone the repository to your local machine:
 
-```git clone <repository-url>
+```bash
+git clone <repository-url>
 cd <project-directory>
 
 ###2. Install Dependencies
