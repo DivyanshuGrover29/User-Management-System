@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    height: 100vh;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .sidebar input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hobby-item {
+    margin: 10px;
+    padding: 15px;
+    background-color: #64b5f6;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .hobby-item:hover {
+    background-color: #2196f3;
+  }
+  
+  .user-node {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 200px;
+    }
+  
+    .sidebar input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .hobby-item {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sidebar {
+      width: 150px;
+      padding: 10px;
+    }
+  
+    .sidebar input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .hobby-item {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
+
