@@ -70,3 +70,16 @@ cd backend
 npm run dev
 ```
 The backend will run on http://localhost:5000 by default.
+
+## Screenshots
+### 1. Main Visualization Area
+![Main Visualization](images/screenshot1.png)
+
+### 2. User Management Form
+![User Management Form](images/screenshot4.png)
+
+###3. Sidebar 
+![Sidebar](images/screenshot2.png)
+
+###4.Overall Website
+![Website](images/screenshot3.png)
